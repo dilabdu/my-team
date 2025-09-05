@@ -1,0 +1,48 @@
+.header {
+   background-color: $color-midnight-green; 
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 7.3rem;
+    padding-bottom: 7.3rem;
+}
+
+.logo__nav{
+    display: flex;
+    gap: 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+}
+.nav {
+}
+.list__items {
+    display: flex;
+    gap:4rem;
+}
+.list__item {
+}
+.list__link {
+    color: $color-white;
+    font-weight: $fw-semibold;
+    font-size: $body-1-size;
+    line-height: $body-1-line-height;
+}
+
+.list__link:active{
+    color: $color-light-coral;
+}
+.header__btn {
+    color: $color-white;
+    border-color: $color-white;
+}
+
+.btn:active{
+    background-color: $color-white;
+    color: $color-dark-green;
+}
