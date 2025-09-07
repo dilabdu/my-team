@@ -1,4 +1,124 @@
-.box{
-    display: grid;
-    place-items: center;
+.feature {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.4rem;
+  background-image: url(../../images/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.feature__divider {
+  margin-bottom: 5.4rem;
+}
+.feature__content {
+  display: flex;
+  justify-content: space-around;
+  gap: 12.5rem;
+  align-items: flex-start;
+}
+.feature__title {
+  font-weight: $fw-bold;
+  font-size: $h3-size;
+  color: $color-white;
+  width: 100%;
+  max-width: 445px;
+}
+.feature__items {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.feature__item {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.feature__item img {
+  width: 72px;
+  height: 72px;
+}
+.feature__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.feature__text__title {
+  color: $color-light-coral;
+  font-weight: $fw-bold;
+  font-size: $body-1-size;
+  line-height: $body-1-line-height;
+}
+
+.feature__description {
+  font-weight: $fw-semibold;
+  font-size: $body-3-size;
+  line-height: $body-3-line-height;
+  color: $color-white;
+}
+
+// Testemonials
+
+.testemonials{
+    background-color: $color-deep-jungle-green;
+    background-image: url(../../images/bg-pattern-home-5.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.testemonial {
+    display: flex;
+    flex-direction: column;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    gap: 5.6rem;
+}
+.testemonial__title {
+    font-weight: $fw-bold;
+    font-size: $h3-size;
+    width: 100%;
+    max-width: 932px;
+}
+.testemonial__cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}    
+.testemonial__card {
+    background-image: url(../../images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: center top -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testemonial__description {
+    font-weight: $fw-semibold;
+    font-size: $body-3-size;
+    line-height: $body-3-line-height;
+    margin-bottom: 2.4rem;
+}
+.testemonial__name {
+    font-weight: $fw-bold;
+    font-size: $body-1-size;
+    line-height: $body-1-line-height;
+    color: $color-rapture-blue;
+    margin-bottom: 2px;
+}
+
+.testemonial__position {
+    font-weight: $fw-medium;
+    font-style: italic;
+    font-size: $body-4-size;
+    line-height: $body-4-line-height;
+    margin-bottom: 3.2rem;
+}
+
+.testemonial__card img{
+    border-radius: 50%;
 }

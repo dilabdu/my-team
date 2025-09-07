@@ -9,6 +9,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 7.6rem;
+  padding-bottom: 7.6rem;
 }
 
 .footer__text {
@@ -26,7 +28,6 @@
 
 .footer__btn:hover{
     background-color: $color-sacramento-state-green;
-    // border: none;
     color: $color-white;
 }
 
@@ -50,26 +51,17 @@
   .logo__nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 2.5rem;
   }
 }
 
-.header__logo {
-}
-.nav {
-}
-.list__items {
-}
-.list__item {
-}
-.list__link {
-}
-
 .footer__address {
   margin-left: -200px;
+  font-style: normal;
 }
+
 .footer__address,
 .footer__link {
   font-family: $font-family-sans;
@@ -79,30 +71,30 @@
   color: $color-white;
   opacity: 0.6;
 }
-.footer__link {
-}
-.icons {
+
+.footer__socials {
   display: flex;
   gap: 5.1rem;
   flex-direction: column;
 }
-.footer__icons {
+
+.footer__social {
   display: flex;
   justify-content: end;
   gap: 1.6rem;
 }
 
-.footer__icons {
+.footer__social {
     svg:hover{
     cursor: pointer;
     }
 }
 
-.footer__icons svg:active path{
+.footer__social svg:active path{
     fill: #f67e7e;
 }
-.icon__text {
-  opacity: 0.6;
+
+.footer__social{
   font-weight: $fw-semibold;
   font-size: $body-3-size;
   line-height: $body-3-line-height;

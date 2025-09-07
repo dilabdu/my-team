@@ -32,10 +32,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: $font-family-sans;
+  color: $color-white;
+  font-size: $body-1-size;
+  line-height: $body-1-line-height;
 }
 
 main {
   flex-grow: 1;
+   background-color:  $color-sacramento-state-green;
 }
 
 .container {
@@ -56,4 +60,32 @@ main {
   line-height: $body-1-line-height;
   border-radius: 2.4rem;
   border: 2px solid;
+}
+
+#active{
+  color: $color-light-coral;
+}
+
+
+
+.divider{
+  height: 4px;
+  width: 50px;
+  display: inline-block;
+}
+
+.divider__primary{
+  background-color: $color-rapture-blue;
+}
+
+.divider__secondary{
+background-color: $color-light-coral ;
+}
+
+.text__primary{
+  color: $color-rapture-blue;
+}
+
+.text__secondary{
+  color: $color-light-coral;
 }
