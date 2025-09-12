@@ -7,6 +7,7 @@
   background-image: url(../../images/bg-pattern-home-3.svg);
   background-repeat: no-repeat;
   background-position: right -100px bottom;
+  background-color: $color-sacramento-state-green;
 }
 
 .feature__divider {
@@ -61,64 +62,71 @@
 
 // Testemonials
 
-.testemonials{
-    background-color: $color-deep-jungle-green;
-    background-image: url(../../images/bg-pattern-home-5.svg);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+.testemonials {
+  background-color: $color-deep-jungle-green;
+  background-image: url(../../images/bg-pattern-home-5.svg),
+    url(../../images/bg-pattern-home-4-about-3.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom left top;
+  // background-size: contain;
 }
 
 .testemonial {
-    display: flex;
-    flex-direction: column;
-    padding-top: 14rem;
-    padding-bottom: 14rem;
-    gap: 5.6rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  gap: 5.6rem;
 }
 .testemonial__title {
-    font-weight: $fw-bold;
-    font-size: $h3-size;
-    width: 100%;
-    max-width: 932px;
+  text-align: center;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  font-weight: $fw-bold;
+  font-size: $h3-size;
+  width: 100%;
+  max-width: 932px;
 }
 .testemonial__cards {
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-}    
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
 .testemonial__card {
-    background-image: url(../../images/icon-quotes.svg);
-    background-repeat: no-repeat;
-    background-position: center top -30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url(../../images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3.6rem;
 }
 .testemonial__description {
-    font-weight: $fw-semibold;
-    font-size: $body-3-size;
-    line-height: $body-3-line-height;
-    margin-bottom: 2.4rem;
+  font-weight: $fw-semibold;
+  font-size: $body-3-size;
+  line-height: $body-3-line-height;
+  margin-bottom: 2.4rem;
 }
 .testemonial__name {
-    font-weight: $fw-bold;
-    font-size: $body-1-size;
-    line-height: $body-1-line-height;
-    color: $color-rapture-blue;
-    margin-bottom: 2px;
+  font-weight: $fw-bold;
+  font-size: $body-1-size;
+  line-height: $body-1-line-height;
+  color: $color-rapture-blue;
+  margin-bottom: 2px;
 }
 
 .testemonial__position {
-    font-weight: $fw-medium;
-    font-style: italic;
-    font-size: $body-4-size;
-    line-height: $body-4-line-height;
-    margin-bottom: 3.2rem;
+  font-weight: $fw-medium;
+  font-style: italic;
+  font-size: $body-4-size;
+  line-height: $body-4-line-height;
+  margin-bottom: 3.2rem;
 }
 
-.testemonial__card img{
-    border-radius: 50%;
+.testemonial__card img {
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
 }

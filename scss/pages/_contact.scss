@@ -1,0 +1,85 @@
+.main {
+}
+
+.feature__item{
+display: flex;
+align-items: center;
+}
+.contact__hero {
+  background-color: $color-midnight-green;
+  background-image: url(../../images/bg-pattern-about-2-contact-1.svg), url(../../images/bg-pattern-contact-2.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position:  left top, right bottom;
+}
+
+.contact__container {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.contact__text {
+  display: flex;
+  flex-direction: column;
+}
+.contact__title {
+  font-weight: $fw-bold;
+  font-size: $h2-size;
+  line-height: $h2-line-height;
+  margin-bottom: 1.6rem;
+}
+.contact__ask {
+  font-weight: $fw-bold;
+  font-size: $h5-size;
+  line-height: $h5-line-height;
+  color: $color-light-coral;
+  margin-bottom: 3.2rem;
+}
+
+.contact__form {
+}
+
+.form__control {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.contact__label {
+  font-weight: $fw-semibold;
+  font-size: $body-3-size;
+  line-height: $body-3-line-height;
+  letter-spacing: $ls-tight;
+}
+
+.contact__inpt {
+  background: none;
+  border: none;
+  border-bottom: 1px solid $color-white;
+  width: 540px;
+  height: 42px;
+}
+
+.contact__textarea {
+  resize: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid $color-white;
+  width: 540px;
+  height: 84px;
+  margin-bottom: 2.4rem;
+}
+
+.contact__btn{
+  padding: 1rem 3.7rem;
+  border-radius: 2.4rem;
+  background-color: $color-white;
+  border: 2px solid $color-white;
+  font-weight: $fw-semibold;
+  font-size: $body-1-size;
+  line-height: $body-1-line-height;
+  color: $color-deep-jungle-green;
+}

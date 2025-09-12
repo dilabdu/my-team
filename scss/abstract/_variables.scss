@@ -6,6 +6,7 @@
 $color-midnight-green: #014E56;
 $color-light-coral: #F67E7E;
 $color-white: #FFFFFF;
+$color-border: #c4fffe;
 
 // Secondary
 $color-rapture-blue: #79C8C7;
@@ -13,6 +14,7 @@ $color-police-blue: #2C6269;
 $color-deep-jungle-green: #004047;
 $color-sacramento-state-green: #012F34;
 $color-dark-green: #002529;
+
 
 
 // ==============================
@@ -33,7 +35,7 @@ $h1-size: 10rem;   // 100px
 $h1-line-height: 1; // 100/100
 
 $h2-size: 6.4rem;  // 64px
-$h2-line-height: 1; // 64/64
+$h2-line-height: 1.56; // 100/64
 
 $h3-size: 4.8rem;  // 48px
 $h3-line-height: 1; // 48/48
@@ -41,6 +43,8 @@ $h3-line-height: 1; // 48/48
 $h4-size: 3.6rem;  // 36px
 $h4-line-height: 1; // 36/36
 
+$h5-size: 3.2rem; // 32px
+$h5-line-height: 1.5; // 48/32=1.5
 // Body
 $body-1-size: 1.8rem;  // 18px
 $body-1-line-height: 1.56; // 28/18 ≈ 1.56

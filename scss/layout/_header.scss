@@ -4,13 +4,12 @@
 .header__top {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     padding-top: 7.3rem;
     padding-bottom: 7.3rem;
 }
 
-.header__brand, .footer__brand{
+.header__brand{
     display: flex;
     gap: 8rem;
     justify-content: space-between;
@@ -26,6 +25,7 @@
 
 .list__items {
     display: flex;
+    align-items: center;
     gap:4rem;
 }
 
