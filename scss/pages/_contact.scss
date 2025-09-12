@@ -9,7 +9,7 @@ align-items: center;
   background-color: $color-midnight-green;
   background-image: url(../../images/bg-pattern-about-2-contact-1.svg), url(../../images/bg-pattern-contact-2.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position:  left top, right bottom;
+  background-position:  left -100px top, right -100px bottom;
 }
 
 .contact__container {

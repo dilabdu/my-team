@@ -45,7 +45,7 @@
   background-image: url(../../images/bg-pattern-about-2-contact-1.svg),
     url(../../images/bg-pattern-home-4-about-3.svg);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: top left -100px, bottom right;
   background-size: 200px 200px;
 }
 .about__container {
@@ -123,6 +123,14 @@
   gap: 1.6rem;
 }
 
+.hero__person__img:active {
+}
+
+.hero__person__img:active path {
+  fill: $color-black;
+  box-shadow: 0px 1px 2px 0px #000000;
+  color: $color-light-coral;
+}
 .close {
   display: flex;
   text-align: center;
